@@ -49,6 +49,8 @@ const Form = ({dataField, openForm, closeForm}) => {
                 })
                 .eq('Key', key)
 
+            console.log(error)
+
             setId(dataField.data.Id)
             setTitle(dataField.data.Title)
             setState(dataField.data.State)
@@ -69,6 +71,8 @@ const Form = ({dataField, openForm, closeForm}) => {
                     State: state,
                     Url: url,
                 })
+
+            console.log(error)
 
             setId('')
             setTitle('')

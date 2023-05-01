@@ -35,5 +35,5 @@ const mainSlice = createSlice({
     }
 })
 
-export const { setData } = mainSlice.actions
+// export const { setData } = mainSlice.actions
 export default mainSlice.reducer
